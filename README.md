@@ -1,74 +1,24 @@
-osTicket: Post-Installation Configuration
+<p align="center">
+<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
+</p>
 
-Overview
+<h1>osTicket - Post-Install Configuration</h1>
+This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
 
-osTicket is an open-source help desk system for managing customer support requests. This guide provides essential post-installation steps to configure and optimize osTicket.
 
-Environment & Technologies
+<h2>Video Demonstration</h2>
 
-OS: Ubuntu 20.04/22.04, CentOS 8/RHEL
+- ### [YouTube: How To Configure osTicket, post-installation](https://www.youtube.com)
 
-Web Server: Apache/Nginx
+<h2>Environments and Technologies Used</h2>
 
-Database: MySQL/MariaDB
+- Microsoft Azure (Virtual Machines/Compute)
+- Remote Desktop
+- Internet Information Services (IIS)
 
-PHP: 7.4 or 8.0
+<h2>Operating Systems Used </h2>
 
-Services: SMTP/IMAP, Cron Jobs
+- Windows 10</b> (21H2)
 
-Configuration Steps
-
-1. Secure Admin Panel
-
-# Change admin password immediately after installation
-# Enable HTTPS using Let's Encrypt
-sudo certbot --apache -d example.com
-# Restrict access by IP using .htaccess
-
-2. Configure Email
-
-# Set up SMTP for outgoing emails
-# Example for Gmail
-SMTP Host: smtp.gmail.com
-SMTP Port: 587
-Encryption: TLS
-
-3. Set Up Departments & Roles
-
-# Define roles with appropriate permissions in the admin panel
-# Assign staff to departments for ticket routing
-
-4. Customize Ticket Settings
-
-# Configure ticket statuses, priorities, and auto-responses in Admin Panel
-# Set up SLA policies for response tracking
-
-5. Enable Plugins & Extensions
-
-# Install necessary plugins from Admin Panel > Manage > Plugins
-# Enable OAuth2 for secure email authentication
-
-6. Automate Ticket Management
-
-# Set up cron jobs to automate email fetching
-crontab -e
-*/5 * * * * php /path-to-osticket/api/cron.php
-
-7. Optimize Performance
-
-# Adjust PHP settings for better performance
-sudo nano /etc/php/7.4/apache2/php.ini
-memory_limit = 256M
-max_execution_time = 300
-
-8. Backup & Maintenance
-
-# Schedule daily database backups
-mysqldump -u root -p osticket > /backup/osticket.sql
-# Regularly update osTicket and dependencies
-
-Conclusion
-
-These steps ensure osTicket is secure, optimized, and efficient for ticket management. Regular maintenance and updates are key to maintaining performance.
-
+<h2>Post-Install Configuration Objectives</h2>
 
