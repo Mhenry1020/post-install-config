@@ -27,7 +27,10 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 
 ## 1. System Settings & Preferences
-- Configure the helpdesk name, default email, and time zone.  
+- Configure the helpdesk name, default email, and time zone.
+- ![image](https://github.com/user-attachments/assets/18537b82-0a51-4215-87be-b71b02b32f5b) ![image](https://github.com/user-attachments/assets/e57e251e-6d46-451b-a4a2-b16910542478)
+
+ 
 - Set up ticket settings like auto-close time, SLA policies, and priority levels.  
 
 ## 2. Email Configuration
@@ -36,12 +39,24 @@ This tutorial outlines the post-install configuration of the open-source help de
 - Ensure email piping or cron job is correctly configured for automation.  
 
 ## 3. User & Staff Management
-- Create user roles, assign permissions, and add support staff.  
-- Configure departments, teams, and groups for proper ticket routing.  
+- Create user roles, assign permissions, and add support staff.
+![image](https://github.com/user-attachments/assets/4d5d1c38-6dca-40a7-ae0f-3b31611a2616)
+![image](https://github.com/user-attachments/assets/601013a1-f128-4a82-b69c-2e73820ddb21)
+
+![image](https://github.com/user-attachments/assets/3f32b48e-0559-4d63-88a9-90cfcbde75f5)
+
+- Configure departments, teams, and groups for proper ticket routing.(Ticket Visibility, Help Desk vs SysAdmins, vs Networking)
+![image](https://github.com/user-attachments/assets/8701a0da-e700-4ebd-ace4-5280ddac5b82)
+![image](https://github.com/user-attachments/assets/d611535b-2666-49ac-9734-8c5634c53370)
+
+
 
 ## 4. Ticket Workflow & SLA Policies
-- Define help topics and auto-assign tickets based on department/team.  
-- Set up SLA (Service Level Agreements) to manage response times.  
+- Define help topics and auto-assign tickets based on department/team.  ![image](https://github.com/user-attachments/assets/cd03949c-20ff-4480-95ac-f1ca0f21e68b)
+
+- Set up SLA (Service Level Agreements) to manage response times.  ![image](https://github.com/user-attachments/assets/bc9ed0f3-4b63-4263-88ba-4a94721f3801) ![image](https://github.com/user-attachments/assets/66439346-c1f6-4ceb-b938-5d6e329d3ff2)
+
+
 
 ## 5. Security & Performance Optimization
 - Enable CAPTCHA for new ticket submissions.  
